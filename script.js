@@ -25,7 +25,10 @@ usdInput.addEventListener( 'input', (event) => {
 
         .then(data => {
             
-            brlInput.value = (value * data.data.rates.BRL).toFixed(2);
+            brlInput.value = (value * data.data.rates.BRL).toLocaleString("pt-br", {
+                style: 'currency',
+                currency: "BRL"
+            } );
         });
 
    
@@ -45,7 +48,10 @@ brlInput.addEventListener( 'input', (event) => {
 
         .then(data => {
             
-            usdInput.value = (value / data.data.rates.BRL).toFixed(2);
+            usdInput.value = (value / data.data.rates.BRL).toLocaleString("us", {
+                style: 'currency',
+                currency: "USD"
+            } );
         });
 
 });
