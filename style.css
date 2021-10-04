@@ -18,22 +18,20 @@ body {
   
 }
 
-section {
+.principal {
     background-image: url(img/futuristic-stock-exchange-scene-mobile-260nw-1555455731.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-   
-   
     width: 98%;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  border-radius: 15px;
-  margin-top: 10px; 
-  padding-bottom: 70px;
-  position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+    margin-top: 10px; 
+    padding-bottom: 70px;
+    position: relative;
 
 }
 .gradient {
