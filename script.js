@@ -27,7 +27,7 @@ usdInput.addEventListener( 'input', (event) => {
             
             brlInput.value = (value * data.data.rates.BRL).toLocaleString("pt-br", {
                 style: 'currency',
-                currency: "BRL"
+                currency: "BRL" 
             } );
         });
 
